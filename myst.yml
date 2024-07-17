@@ -1,0 +1,45 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: tilt-corrected-bf-stem-1
+  title: Tilt-Corrected BF-STEM
+  short_title: tcBF-STEM
+  jupyter:
+    server:
+      url: 'http://localhost:8888'
+      token: '512ac78f14e1141db1fac17e8b4099c1e5bc7d589518b38c'
+    #    binder:
+    #      url: https://y2j74k9mn0bz.curvenote.dev/services/binder/
+    #      repo: msa-em/tilt-corrected-bf-stem
+  keywords: []
+  authors:
+    - name: Georgios Varnavides
+      corresponding: true
+      email: gvarnavides@berkeley.edu
+      orcid: 0000-0001-8338-3323
+      affiliations:
+        - id: miller
+          department: Miller Institute for Basic Research in Science
+          institution: University of California, Berkeley
+          address: 468 Donner Lab, Berkeley, CA, USA, 94720
+    - name: Colin Ophus
+      corresponding: true
+      email: cophus@gmail.com
+      orcid: 0000-0003-2348-8558
+      affiliations:
+        - id: ncem
+          department: National Center for Electron Microscopy, Molecular Foundry
+          institution: Lawrence Berkeley National Laboratory
+          address: 1 Cyclotron Road, Berkeley, CA, USA, 94720
+    - name: Stephanie M Ribet
+      corresponding: true
+      email: sribet@lbl.gov
+      orcid: 0000-0002-7117-066X
+      affiliations: [ncem]
+  open_access: true 
+  github: https://github.com/msa-em/tilt-corrected-bf-stem
+    
+site:
+  template: book-theme
+  domains:
+    - microscopy-EM000002.curve.space
