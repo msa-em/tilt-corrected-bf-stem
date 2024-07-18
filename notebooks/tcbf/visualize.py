@@ -71,7 +71,7 @@ def add_scalebar(ax, length, sampling, units, color="white"):
         size_vertical=1,
     )
     ax.add_artist(bar)
-    return ax
+    return ax, bar
 
 
 def add_colorbar_arg(cax, chroma_boost=1, c=49, j=61.5):
