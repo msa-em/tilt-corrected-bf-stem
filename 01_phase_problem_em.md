@@ -1,5 +1,6 @@
 ---
-title: Phase Problem in EM
+title: Phase Problem in Electron Microscopy
+short_title: EM Phase Problem
 ---
 
 :::{figure} #app:phase_problem_em
