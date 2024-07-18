@@ -1,0 +1,15 @@
+name: tilt-corrected-bf-stem
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - scipy
+  - h5py
+  - matplotlib
+  - ipympl
+  - py4DSTEM
+  - ipywidgets
+  - jupyterlab
+  - jupyterlab-myst
+  - 'nodejs>=20,<21'
+  - mystmd
