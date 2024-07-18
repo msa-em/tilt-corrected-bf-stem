@@ -57,18 +57,18 @@ def Complex2RGB(
     return rgb
 
 
-def add_scalebar(ax, length, sampling, units, color="white"):
+def add_scalebar(ax, length, sampling, units, color="white", size_vertical=1, pad=0.5):
     """ """
     bar = AnchoredSizeBar(
         ax.transData,
         length,
         f"{sampling*length:.2f} {units}",
         "lower right",
-        pad=0.5,
+        pad=pad,
         color=color,
         frameon=False,
         label_top=True,
-        size_vertical=1,
+        size_vertical=size_vertical,
     )
     ax.add_artist(bar)
     return ax, bar
