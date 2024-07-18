@@ -1,7 +1,7 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  id: tilt-corrected-bf-stem-1
+  id: msa-em-tilt-corrected-bf-stem-1
   title: Tilt-Corrected BF-STEM
   short_title: tcBF-STEM
   jupyter:
@@ -36,9 +36,14 @@ project:
       email: sribet@lbl.gov
       orcid: 0000-0002-7117-066X
       affiliations: [ncem]
-  open_access: true 
+  open_access: true
   github: https://github.com/msa-em/tilt-corrected-bf-stem
-    
+  requirements:
+    - 'environment.yml'
+  resources:
+    - 'notebooks/**/*'
+  exports:
+    - format: meca
 site:
   template: book-theme
   domains:
