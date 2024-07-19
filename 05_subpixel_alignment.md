@@ -5,7 +5,11 @@ short_title: Upsampling of Aligned BF
 
 ### Subpixel Upsampling
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Facilisis gravida neque convallis a cras. Malesuada fames ac turpis egestas integer. Ut tortor pretium viverra suspendisse potenti nullam ac. Sed adipiscing diam donec adipiscing tristique. Adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus. Dictum at tempor commodo ullamcorper a lacus vestibulum sed. 
+:::{caution} TO-DO:
+- Add interactive widget for upsampling factor
+- Add text describing kernel-density estimation upsampling
+:::
+
 
 :::{figure} #app:py4dstem_parallax_subpixel
 :name: py4dstem_parallax_subpixel

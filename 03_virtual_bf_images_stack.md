@@ -3,7 +3,10 @@ title: Virtual Bright-Field Images Stack
 short_title: Virtual BF Images Stack
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Facilisis gravida neque convallis a cras. Malesuada fames ac turpis egestas integer. Ut tortor pretium viverra suspendisse potenti nullam ac. Sed adipiscing diam donec adipiscing tristique. Adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus. Dictum at tempor commodo ullamcorper a lacus vestibulum sed. 
+:::{caution} TO-DO:
+- Add text describing visual demo of principle of reciprocity
+  - Explain how 4D-data gets transformed to virtual BFs stack
+:::
 
 :::{figure} #app:virtual_bf_images_stack
 :name: virtual_bf_images_stack
