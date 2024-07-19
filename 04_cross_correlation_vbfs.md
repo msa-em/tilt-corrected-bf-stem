@@ -47,5 +47,6 @@ py4DSTEM parallax iterative cross-correlation
 
 :::{figure} #app:py4dstem_parallax_shifts
 :name: py4dstem_parallax_shifts
+:placeholder: ./static/py4dstem_parallax_shifts.png
 py4DSTEM parallax iterative cross-correlation
 :::
