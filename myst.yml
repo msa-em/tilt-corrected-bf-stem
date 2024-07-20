@@ -3,7 +3,7 @@ version: 1
 project:
   id: msa-em-tilt-corrected-bf-stem-1
   title: Tilt-Corrected BF-STEM
-  short_title: tcBF-STEM
+  #    short_title: tBF-STEM
   jupyter: true
     #    server:
     #      url: 'http://localhost:8888'
