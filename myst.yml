@@ -4,13 +4,16 @@ project:
   id: msa-em-tilt-corrected-bf-stem-1
   title: Tilt-Corrected BF-STEM
   #    short_title: tBF-STEM
-  jupyter: true
+  #  jupyter: true
+  jupyter:
+    binder:
+      url: https://y2j74k9mn0bz.curvenote.dev/services/binder/
+      repo: msa-em/tilt-corrected-bf-stem
+      ref: dev
+  #  jupyter:
     #    server:
     #      url: 'http://localhost:8888'
     #      token: '512ac78f14e1141db1fac17e8b4099c1e5bc7d589518b38c'
-    #    binder:
-    #      url: https://y2j74k9mn0bz.curvenote.dev/services/binder/
-    #      repo: msa-em/tilt-corrected-bf-stem
   keywords: []
   authors:
     - name: Georgios Varnavides
