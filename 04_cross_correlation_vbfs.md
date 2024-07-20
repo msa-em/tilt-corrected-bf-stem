@@ -12,6 +12,7 @@ short_title: Cross-Corelation of Virtual BFs
 
 :::{figure} #app:py4dstem_parallax_vbfs
 :name: py4dstem_parallax_vbfs
+:placeholder: ./static/py4dstem_parallax_vbfs.png
 py4DSTEM parallax virtual bright field images
 :::
 
