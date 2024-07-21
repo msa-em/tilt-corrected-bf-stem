@@ -3,7 +3,6 @@ version: 1
 project:
   id: msa-em-tilt-corrected-bf-stem-1
   title: Tilt-Corrected BF-STEM
-  #    short_title: tBF-STEM
   #  jupyter: true
   jupyter:
     binder:
@@ -53,7 +52,8 @@ project:
     4D-STEM: four dimensional scanning transmission electron microscopy
     FFT: fast Fourier transform
     PCI: phase-contrast imaging
-    TEM: transmission electron micropscopy
+    TEM: transmission electron microscopy
+    tcBF-STEM: tilt-corrected bright-field STEM
 site:
   template: book-theme
   domains:

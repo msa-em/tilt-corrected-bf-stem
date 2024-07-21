@@ -1,6 +1,7 @@
 ---
 title: Phase Problem in Electron Microscopy
 short_title: EM Phase Problem
+label:phase_problem_em_page
 ---
 
 :::{caution} TO-DO:
@@ -19,11 +20,6 @@ One of the most powerful operating modes for [transmission electron microscopy](
 :placeholder: ./static/phase_problem_em.png
 **{abbr}`Plane wave HRTEM imaging simulation of apoferritin (Press the button on the upper right to get an interactive figure - try changing the defocus, electron dose, or zooming in!)`.** When the defocus is zero, this weakly-scattering sample produces only a small amount of amplitude constast. By defocusing the scattered electron wave or introducing a Zernike phase plate (plotted with the sign convention as the sample potential), we can increase the contrast. This produces measurable intensity variations even for very low electron fluence.
 ```
-<!-- :::{figure} #app:phase_problem_em
-:name: phase_problem_em
-:placeholder: ./static/phase_problem_em.png
-Phase problem in electron microscopy. 
-::: -->
 
 Defocusing an electron [wavefunction](wiki:Wave_function) $\psi_0(\vec{r})$ by a distance $\Delta f$ to produce the output wave $\psi(\vec{r})$ can be modeled mathematically using the expression
 ```{math}
