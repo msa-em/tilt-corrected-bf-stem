@@ -6,7 +6,7 @@ short_title: Aberration Fitting
 ### Aberration Fitting - Theory
 
 :::{caution} TO-DO:
-- Add text and equations describing theory
+- Add text and equations describing aberration surface gradients theory
 :::
 
 :::{figure} #app:py4dstem_parallax_shifts_interactive

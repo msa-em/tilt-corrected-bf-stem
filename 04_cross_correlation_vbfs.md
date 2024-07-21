@@ -1,6 +1,6 @@
 ---
 title: Cross-Correlation of Virtual Bright-Field Images
-short_title: Cross-Corelation of Virtual BFs
+short_title: Cross-Corelation
 ---
 
 ### Tilt-Corrected Virtual BFs
@@ -42,7 +42,7 @@ py4DSTEM parallax iterative cross-correlation
 ### Cross-Correlation Shifts
 
 :::{caution} TO-DO:
-- Add text describing cross-correlation shift surface
+- Add text describing cross-correlation shifts surface
 :::
 
 :::{figure} #app:py4dstem_parallax_shifts
