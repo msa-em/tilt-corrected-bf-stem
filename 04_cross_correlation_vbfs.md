@@ -42,7 +42,6 @@ py4DSTEM parallax iterative cross-correlation
 ### Cross-Correlation Shifts
 
 :::{caution} TO-DO:
-- Add interactive widget to show effect of aberrations on measured shifts
 - Add text describing cross-correlation shift surface
 :::
 
@@ -52,8 +51,3 @@ py4DSTEM parallax iterative cross-correlation
 py4DSTEM parallax iterative cross-correlation
 :::
 
-:::{figure} #app:py4dstem_parallax_shifts_interactive
-:name: py4dstem_parallax_shifts_interactive
-:placeholder: ./static/py4dstem_parallax_shifts_interactive.png
-py4DSTEM parallax iterative cross-correlation interactive
-:::
