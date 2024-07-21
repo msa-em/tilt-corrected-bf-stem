@@ -31,11 +31,39 @@ where $\lambda$ is the (relativistically-corrected) electron wavelength, $C_{m,n
 **Common aberrations and microscope geometry effects on tcBF-STEM.** Notice the relative robustness of the aligned BF stack when the `rotation_angle` and `defocus` sliders are moved slightly away from their ground-truth values. Other aberrations, such as astigmatism and coma, introduce more pronnounced effects.
 :::
 
-### Aberration Fitting - Higher Order
+## Aberration Fitting
 
-:::{caution} TO-DO:
-- Add text and equations describing least-squares fitting
-:::
+Equations [](#aberration_surface_gradient_eq) and [](#chi_expansion_eq) form a linear system of equations suggesting that, given the measured vector shifts $\vec{w}(\vec{k})$, the aberration coefficients $C_{m,n}^{x/y}$, and hence $\chi(\vec{k})$, can be estimated.
+
+Specifically, we perform the following steps:
+1. estimate a 2x2 affine transformation, $H\equiv\hat{H}(\vec{k},\vec{k}')$, which maps the initial BF pixel positions, $V\equiv\vec{v}(\vec{k}')$, to the measured vector shifts, $W\equiv\vec{w}(\vec{k})$:
+
+```{math}
+:label: affine_transformation_eq
+H = \left( V^T V\right)^{-1} V^T W.
+```
+
+2. decompose the affine transform into radial, $P$, and rotational, $U$, components &ndash; from which the passive rotation $\theta$ can be estimated:
+
+```{math}
+:label: polar_decomposition_eq
+\begin{aligned}
+  H &= U P, \\
+  U &= \begin{bmatrix}
+        \cos(\theta) & \sin(\theta) \\
+        -\sin(\theta) & \cos(\theta) 
+        \end{bmatrix}.
+\end{aligned}
+```
+
+3. passively-rotate the Fourier coordinate system:
+```{math}
+:label: rotated_coordinate_system_eq
+\vec{k}'\equiv \left(k_x,k_y\right) \to \left(k_x \cos(\theta) + k_y \sin(\theta), k_y \cos(\theta) - k_x \sin(\theta)\right).
+```
+
+4. evaluate the linear system given by Equations [](#aberration_surface_gradient_eq) and [](#chi_expansion_eq) on $\vec{k}'$ to estimate aberration coefficients $C_{m,n}^{x/y}$ up to speficied radial and angular orders {cite:p}`cowley1979coherent,lupini2010aberration,lupini2016rapid`
+
 
 :::{figure} #app:py4dstem_parallax_fitting_bf
 :name: py4dstem_parallax_fitting_bf
