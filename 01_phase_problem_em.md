@@ -1,7 +1,7 @@
 ---
 title: Phase Problem in Electron Microscopy
 short_title: EM Phase Problem
-label:phase_problem_em_page
+label: phase_problem_em_page
 ---
 
 :::{caution} TO-DO:
