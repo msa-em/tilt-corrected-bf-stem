@@ -4,11 +4,6 @@ short_title: EM Phase Problem
 label: phase_problem_em_page
 ---
 
-:::{caution} TO-DO:
-- Add text describing phase problem in electron microscopy
-- Add Zernike phase-plate equation
-:::
-
 (intro)= 
 # Introduction
 
