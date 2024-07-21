@@ -10,10 +10,10 @@ project:
       url: https://y2j74k9mn0bz.curvenote.dev/services/binder/
       repo: msa-em/tilt-corrected-bf-stem
       ref: dev
-  #  jupyter:
-    #    server:
-    #      url: 'http://localhost:8888'
-    #      token: '512ac78f14e1141db1fac17e8b4099c1e5bc7d589518b38c'
+  # jupyter:
+  #   server:
+  #     url: 'http://localhost:8888'
+  #     token: '512ac78f14e1141db1fac17e8b4099c1e5bc7d589518b38c'
   keywords: []
   authors:
     - name: Georgios Varnavides
@@ -25,19 +25,19 @@ project:
           department: Miller Institute for Basic Research in Science
           institution: University of California, Berkeley
           address: 468 Donner Lab, Berkeley, CA, USA, 94720
-    - name: Colin Ophus
+    - name: Stephanie M Ribet
       corresponding: true
-      email: cophus@gmail.com
-      orcid: 0000-0003-2348-8558
+      email: sribet@lbl.gov
+      orcid: 0000-0002-7117-066X
       affiliations:
         - id: ncem
           department: National Center for Electron Microscopy, Molecular Foundry
           institution: Lawrence Berkeley National Laboratory
           address: 1 Cyclotron Road, Berkeley, CA, USA, 94720
-    - name: Stephanie M Ribet
+    - name: Colin Ophus
       corresponding: true
-      email: sribet@lbl.gov
-      orcid: 0000-0002-7117-066X
+      email: cophus@gmail.com
+      orcid: 0000-0003-2348-8558
       affiliations: [ncem]
   open_access: true
   github: https://github.com/msa-em/tilt-corrected-bf-stem
@@ -49,6 +49,11 @@ project:
     - format: meca
   exclude:
     - README.md
+  abbreviations:
+    4D-STEM: four dimensional scanning transmission electron microscopy
+    FFT: fast Fourier transform
+    PCI: phase-contrast imaging
+    TEM: transmission electron micropscopy
 site:
   template: book-theme
   domains:
