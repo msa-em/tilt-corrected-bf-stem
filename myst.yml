@@ -47,6 +47,8 @@ project:
     - 'notebooks/**/*'
   exports:
     - format: meca
+  exclude:
+    - README.md
 site:
   template: book-theme
   domains:
