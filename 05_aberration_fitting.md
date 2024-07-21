@@ -64,10 +64,12 @@ H = \left( V^T V\right)^{-1} V^T W.
 
 4. evaluate the linear system given by Equations [](#aberration_surface_gradient_eq) and [](#chi_expansion_eq) on $\vec{k}'$ to estimate aberration coefficients $C_{m,n}^{x/y}$ up to speficied radial and angular orders {cite:p}`cowley1979coherent,lupini2010aberration,lupini2016rapid`
 
+[](#py4dstem_parallax_fitting_bf) below performs the least-squares fit for various radial and angular orders, and plots a comparison between the measured and predicted vector shifts.
+
 
 :::{figure} #app:py4dstem_parallax_fitting_bf
 :name: py4dstem_parallax_fitting_bf
 :placeholder: ./static/py4dstem_parallax_fitting_bf.png
-py4DSTEM parallax aberration fitting
+**Least-squares tcBF-STEM aberration fitting.** Notice how the fit is robust against including higher orders in the aberration expansion, despite the ground-truth shifts including only defocus.
 :::
 
