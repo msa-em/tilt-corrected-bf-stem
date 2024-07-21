@@ -54,6 +54,7 @@ project:
     PCI: phase-contrast imaging
     TEM: transmission electron microscopy
     tcBF-STEM: tilt-corrected bright-field STEM
+    BF: bright-field
 site:
   template: book-theme
   domains:

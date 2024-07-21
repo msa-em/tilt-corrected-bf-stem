@@ -28,7 +28,7 @@ where $\lambda$ is the electron wavelength, $C_{m,n}^{x/y}$ are the Cartesian ab
 :::{figure} #app:py4dstem_parallax_shifts_interactive
 :name: py4dstem_parallax_shifts_interactive
 :placeholder: ./static/py4dstem_parallax_shifts_interactive.png
-py4DSTEM parallax iterative cross-correlation interactive
+**Common aberrations and microscope geometry effects on tcBF-STEM.** Notice the relative robustness of the aligned BF stack when the `rotation_angle` and `defocus` sliders are moved slightly away from their ground-truth simulated values. Other aberrations, such as astigmatism and coma, introduce more pronnounced effects.
 :::
 
 ### Aberration Fitting - Higher Order
