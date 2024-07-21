@@ -1,6 +1,7 @@
 ---
 title: Conventional TEM / Bright-Field STEM Reciprocity
 short_title: CTEM / BF-STEM Reciprocity
+label: reciprocity_page
 ---
 
 :::{caution} TO-DO:
