@@ -1,6 +1,6 @@
 ---
 title: Cross-Correlation of Virtual Bright-Field Images
-short_title: Cross-Corelation of Virtual BFs
+short_title: Cross-Correlation of Virtual BFs
 ---
 
 ### Tilt-Corrected Virtual BFs
