@@ -53,8 +53,10 @@ project:
     FFT: fast Fourier transform
     PCI: phase-contrast imaging
     TEM: transmission electron microscopy
+    STEM: scanning transmission electron microscopy
     tcBF-STEM: tilt-corrected bright-field STEM
     BF: bright-field
+    DF: dark-field
 site:
   template: book-theme
   domains:
