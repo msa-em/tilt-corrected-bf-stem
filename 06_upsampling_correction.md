@@ -15,17 +15,6 @@ short_title: Upsampling of Aligned BF
 py4DSTEM parallax subpixel alignment
 :::
 
-### Thon Rings Fitting
-
-:::{caution} TO-DO:
-- Might remove?
-:::
-
-:::{figure} #app:py4dstem_parallax_fitting_ctf
-:name: py4dstem_parallax_fitting_ctf
-py4DSTEM parallax Thon rings fitting
-:::
-
 ### Aberration Correction
 
 :::{caution} TO-DO:
