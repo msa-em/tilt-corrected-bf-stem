@@ -17,8 +17,10 @@ where $\vec{k}$ is the 2D Fourier space coordinate (spatial frequency) and the a
 
 ```{math}
 :label: chi_expansion_eq
-\chi(\vec{k}) = \frac{2\pi}{\lambda} \sum_{m,n} \frac{\left(\lambda \; |\vec{k}| \right)^{m+1}}{m+1} \Big( & C_{m,n}^x \cos{\left[n \times \mathrm{atan2}\left(k_y, k_x\right) \right]}  + \Big. \notag \\ 
+\begin{aligned}
+  \chi(\vec{k}) = \frac{2\pi}{\lambda} \sum_{m,n} \frac{\left(\lambda \; |\vec{k}| \right)^{m+1}}{m+1} \Big( & C_{m,n}^x \cos{\left[n \times \mathrm{atan2}\left(k_y, k_x\right) \right]}  + \Big. \\ 
     \Big. & C_{m,n}^y \sin{\left[n \times \mathrm{atan2}\left(k_y, k_x\right) \right]}\Big),
+\end{aligned}
 ```
 
 where $\lambda$ is the (relativistically-corrected) electron wavelength, $C_{m,n}^{x/y}$ are the Cartesian aberration coefficients of radial order $m+1$ and angular order $n$ in units of ångströms.
