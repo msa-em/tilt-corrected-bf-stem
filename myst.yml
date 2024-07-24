@@ -3,7 +3,8 @@ version: 1
 project:
   id: msa-em-tilt-corrected-bf-stem-1
   title: Tilt-Corrected BF-STEM
-  #    short_title: tBF-STEM
+  # short_title: tBF-STEM
+  description: 'Please change me'
   #  jupyter: true
   jupyter:
     binder:
@@ -11,9 +12,9 @@ project:
       repo: msa-em/tilt-corrected-bf-stem
       ref: dev
   #  jupyter:
-    #    server:
-    #      url: 'http://localhost:8888'
-    #      token: '512ac78f14e1141db1fac17e8b4099c1e5bc7d589518b38c'
+  #    server:
+  #      url: 'http://localhost:8888'
+  #      token: '512ac78f14e1141db1fac17e8b4099c1e5bc7d589518b38c'
   keywords: []
   authors:
     - name: Georgios Varnavides
@@ -25,6 +26,7 @@ project:
           department: Miller Institute for Basic Research in Science
           institution: University of California, Berkeley
           address: 468 Donner Lab, Berkeley, CA, USA, 94720
+          ror: 01an7q238
     - name: Colin Ophus
       corresponding: true
       email: cophus@gmail.com
@@ -34,13 +36,20 @@ project:
           department: National Center for Electron Microscopy, Molecular Foundry
           institution: Lawrence Berkeley National Laboratory
           address: 1 Cyclotron Road, Berkeley, CA, USA, 94720
+          ror: 02jbv0t02
     - name: Stephanie M Ribet
       corresponding: true
       email: sribet@lbl.gov
       orcid: 0000-0002-7117-066X
       affiliations: [ncem]
   open_access: true
+  license: CC-BY-4.0
   github: https://github.com/msa-em/tilt-corrected-bf-stem
+  doi: 10.69761/XUNR2166
+  # date: 2024-07-24
+  history:
+    submitted: 2024-07-18
+  #   published: 2024-07-24
   requirements:
     - 'environment.yml'
   resources:
@@ -49,5 +58,3 @@ project:
     - format: meca
 site:
   template: book-theme
-  domains:
-    - microscopy-EM000002.curve.space
