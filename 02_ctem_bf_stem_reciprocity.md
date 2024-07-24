@@ -4,13 +4,6 @@ short_title: CTEM / BF-STEM Reciprocity
 label: reciprocity_page
 ---
 
-:::{caution} TO-DO:
-- Add text describing CTEM/BF-STEM reciprocity principle
-- Specific things to call out:
-  - Need to defocus
-  - Image shift at sample plane
-:::
-
 
 Conventional transmission electron microscopy (CTEM) refers to a TEM imaging mode where we form a plane-wave of electrons focused on (or close to) an electron-transparent sample [@de2003introduction]. In bright field (BF) CTEM imaging we use a post-specimen aperture which only allows unscattered electrons to hit the detector. Alternatively we can produce a dark field (DF) image by using an aperture to select a subset of the scattered electrons. As as discussed in the [phase contrast imaging](./01_phase_contrast_imaging.md) section, we can use a phase plate or defocus to produce contrast without an aperture. CTEM is widely used for imaging biological specimens [@cheng2015single], weakly-scattering materials science or geological samples [@lee2010transmission], and for *in situ* experiments where we typically want high temporal resolution while observing a large field of view [@ross2007situ].
 
