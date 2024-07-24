@@ -16,4 +16,4 @@ dependencies:
   - mystmd
   - pip
   - pip:
-    - https://raw.githubusercontent.com/gvarnavi/TemGymLite/main/dist/temgymlite-0.6.0.0-py3-none-any.whl
+    - https://raw.githubusercontent.com/gvarnavi/TemGymLite/main/dist/temgymlite-0.6.0.0-py3-none-any.whl # TemGymLite
