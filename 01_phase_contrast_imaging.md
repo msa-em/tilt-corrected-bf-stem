@@ -8,7 +8,6 @@ The simplest method to produce phase contrast in plane wave TEM imaging is to ap
 The protein sample shown here is [apoferritin](https://www.rcsb.org/structure/8RQB), which produces very weak diffraction of the electron beam.
 To produce usable contrast from defocus, we must either apply a large defocus or increase the electron fluence, colloquially referred to as the electron dose {cite:p}`egerton2021dose`. 
 
-
 ```{figure} #app:phase_contrast_imaging
 :label: phase_contrast_imaging
 :placeholder: ./static/phase_contrast_imaging.png

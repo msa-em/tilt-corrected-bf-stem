@@ -50,13 +50,16 @@ project:
     - README.md
   abbreviations:
     4D-STEM: four dimensional scanning transmission electron microscopy
+    BF: bright-field
+    CTEM: conventional transmission electron microscopy
+    DF: dark-field    
+    EELS: electron energy loss spectroscopy
     FFT: fast Fourier transform
     PCI: phase-contrast imaging
     TEM: transmission electron microscopy
     STEM: scanning transmission electron microscopy
     tcBF-STEM: tilt-corrected bright-field STEM
-    BF: bright-field
-    DF: dark-field
+    XEDS: x-ray energy dispersive spectrometry 
 site:
   template: book-theme
   domains:
