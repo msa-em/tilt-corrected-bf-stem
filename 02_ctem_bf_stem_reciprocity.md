@@ -25,3 +25,8 @@ Principle of reciprocity in off-axis BF-STEM and tilted CTEM
 :::
 
 
+The above STEM discussion and Figure describe a conventional BF detector, which records a single intensity value per STEM probe position. However, with high-speed direct electron detectors, we can record a full image of the diffracted electron beam at each probe position [@tate2016high]. By recording 2D images of of the STEM probe over a 2D grid of probe positions, we produce a four dimensonal dataset. This family of STEM methods is often referred to as four dimensional STEM (4D-STEM) [@ophus2019four]. We can produce BF STEM images from a 4D-STEM dataset by using virtual detectors composed of integration masks applied in the diffraction space dimensions of a 4D-STEM dataset [@ribet2023defect]. The algorithmic and software implementation for various phase contrast 4D-STEM imaging methods are described in the manuscript by {cite:t}`varnavides2023iterative`.
+
+
+
+
