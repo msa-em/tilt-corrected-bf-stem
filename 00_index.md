@@ -4,8 +4,27 @@ title: Tilt-Corrected Bright-Field STEM
 
 +++ {"part": "abstract"}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Facilisis gravida neque convallis a cras. Malesuada fames ac turpis egestas integer. Ut tortor pretium viverra suspendisse potenti nullam ac. Sed adipiscing diam donec adipiscing tristique. Adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus. Dictum at tempor commodo ullamcorper a lacus vestibulum sed. At quis risus sed vulputate odio ut enim blandit. Fringilla est ullamcorper eget nulla facilisi etiam. Sollicitudin tempor id eu nisl nunc mi ipsum. Vel eros donec ac odio tempor orci. Id eu nisl nunc mi ipsum faucibus. Aliquam ut porttitor leo a diam. Quis hendrerit dolor magna eget. Sollicitudin nibh sit amet commodo nulla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames. Diam vel quam elementum pulvinar. Vel fringilla est ullamcorper eget nulla facilisi. Viverra accumsan in nisl nisi.
+Phase contrast imaging (PCI) is a highly dose-efficient (scanning) tranmission electron microscopy (S/TEM) imaging modality, which enables the observation of weakly-scattering objects, such as beam-sensitive materials and biological samples.
+Tilt-corrected bright-field STEM (tc-BF STEM), also referred to as parallax imaging, is a recently developed PCI STEM technique which utilizes the principle of reciprocity between tilted TEM and off-axis BF-STEM images to reconstruct the phase imparted by the sample, and enable robust aberration coefficient estimates.
+Here, we first introduce the principles which underpin the technique, before demonstrating its application on a simulated dataset of a protein sample using our open-source implementation.
 
 +++
 
++++{"part":"epigraph"}
+:::{warning} Pre-print
+This article has not yet been peer-reviewed.  
+_Updated 2024 July 25_
+:::
 
++++
+
++++ {"part": "acknowledgements"} 
+
+Work at the Molecular Foundry was supported by the Office of Science, Office of Basic Energy Sciences, of the U.S. Department of Energy under Contract No. DE-AC02-05CH11231.
++++
+
++++ {"part": "competing interests"} 
+## Competing Interests
+
+The authors declare that they have no known competing interests.
++++
