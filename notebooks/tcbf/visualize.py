@@ -162,7 +162,7 @@ def show(
         fig, ax = figax
 
     ax.imshow(
-        array, vmin=vmin, vmax=vmax, cmap=cmap, interpolation=None, **kwargs
+        array, vmin=vmin, vmax=vmax, cmap=cmap, interpolation='bicubic', **kwargs
     )
 
     if cbar:
