@@ -59,6 +59,7 @@ project:
     - 'notebooks/**/*'
   exports:
     - format: meca
+  banner: banner.png
   exclude:
     - README.md
   abbreviations:
