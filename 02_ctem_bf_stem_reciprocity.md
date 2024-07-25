@@ -19,12 +19,13 @@ In BF STEM, we measure the diffracted electron beam in the far field, using a de
 :::{figure} #app:ctem_bf_stem_reciprocity
 :name: ctem_bf_stem_reciprocity
 :placeholder: ./static/ctem_bf_stem_reciprocity.png
-Principle of reciprocity in off-axis BF-STEM and tilted CTEM
+Principle of reciprocity in off-axis BF-STEM and tilted CTEM.
+The deflected ray traces in CTEM from source-to-detector match the ray traces in STEM from detector-to-source, and highlight the apparent image shifts at the sample plane.
 :::
 
 CTEM and BF STEM can be related using the principle of [reciprocity](wiki:Helmholtz_reciprocity). 
 The principle of reciprocity in electron microscopy states that rays connecting a source to a detector follow the same optical path as the rays from the detector to the source [@krause2017reciprocity]. 
 [](#ctem_bf_stem_reciprocity) shows how this principle applies to CTEM and BF STEM, if we swap the source and detector positions for the STEM diagram. 
 
-By following the deflected rays from source-to-detector in CTEM and detector-to-source we can see reciprocity in action.
+By following the deflected rays from source-to-detector in CTEM and detector-to-source in STEM we can see reciprocity in action.
 Notice also how the deflected rays impact the sample at different positions, giving rise to the apparent image shifts the tcBF-STEM technique uses to reconstruct the phase, and how the magnitude of these shifts depend of the defocus as we will investigate in [](#virtual_bf_page).
