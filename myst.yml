@@ -3,17 +3,22 @@ version: 1
 project:
   id: msa-em-tilt-corrected-bf-stem-1
   title: Tilt-Corrected BF-STEM
+  description: Computational article on the tilt-corrected bright-field STEM technique -- a dose efficient phase contrast imaging modality which utilizes the principle of reciprocity.
   #  jupyter: true
   jupyter:
     binder:
       url: https://y2j74k9mn0bz.curvenote.dev/services/binder/
       repo: msa-em/tilt-corrected-bf-stem
       ref: dev
-  # jupyter:
-  #   server:
-  #     url: 'http://localhost:8888'
-  #     token: '512ac78f14e1141db1fac17e8b4099c1e5bc7d589518b38c'
-  keywords: []
+  #  jupyter:
+  #    server:
+  #      url: 'http://localhost:8888'
+  #      token: '512ac78f14e1141db1fac17e8b4099c1e5bc7d589518b38c'
+  keywords:
+    - Tilt-corrected Bright-field STEM
+    - Parallax Imaging
+    - Phase Contrast Imaging
+    - Principle of Reciprocity
   authors:
     - name: Georgios Varnavides
       corresponding: true
@@ -24,6 +29,7 @@ project:
           department: Miller Institute for Basic Research in Science
           institution: University of California, Berkeley
           address: 468 Donner Lab, Berkeley, CA, USA, 94720
+          ror: 01an7q238
       roles:
         - Conceptualization
         - Formal Analysis
@@ -42,6 +48,7 @@ project:
           department: National Center for Electron Microscopy, Molecular Foundry
           institution: Lawrence Berkeley National Laboratory
           address: 1 Cyclotron Road, Berkeley, CA, USA, 94720
+          ror: 02jbv0t02
       roles:
         - Conceptualization
         - Formal Analysis
@@ -69,13 +76,20 @@ project:
         - Visualization
         - Writing - original draft
   open_access: true
+  license: CC-BY-4.0
   github: https://github.com/msa-em/tilt-corrected-bf-stem
+  doi: 10.69761/XUNR2166
+  # date: 2024-07-24
+  history:
+    submitted: 2024-07-25
+  #   published: 2024-07-27
   requirements:
     - 'environment.yml'
   resources:
     - 'notebooks/**/*'
   exports:
     - format: meca
+  banner: banner.png
   exclude:
     - README.md
   abbreviations:
@@ -92,5 +106,3 @@ project:
     XEDS: x-ray energy dispersive spectrometry 
 site:
   template: book-theme
-  domains:
-    - microscopy-EM000002.curve.space
