@@ -13,7 +13,7 @@ The cross-correlation vector shifts $\vec{w}(\vec{k})$ we computed in [](#cross_
 \vec{w}(\vec{k}) = \nabla \chi(\vec{k}),
 ```
 
-where $\vec{k}$ is the 2D Fourier space coordinate (spatial frequency) and the aberration surface can be expressed using the following expansion [@ophus2016correcting]
+where $\vec{k}$ is the 2D Fourier space coordinate (spatial frequency) and the aberration surface can be expressed using the following expansion [@ophus2016automatic]
 
 ```{math}
 :label: chi_expansion_eq
@@ -68,8 +68,15 @@ H = \left( V^T V\right)^{-1} V^T W.
 
 4. evaluate the linear system given by Equations [](#aberration_surface_gradient_eq) and [](#chi_expansion_eq) on $\vec{k}'$ to estimate aberration coefficients $C_{m,n}^{x/y}$ up to speficied radial and angular orders {cite:p}`cowley1979coherent,lupini2010aberration,lupini2016rapid`
 
-[](#py4dstem_parallax_fitting_bf) performs the least-squares fit for various radial and angular orders, and plots a comparison between the measured and predicted vector shifts.
+[](#py4dstem_parallax_fitting_bf) performs the least-squares fit for various radial and angular orders, and plots a comparison between the measured and predicted vector shifts using the following py4DSTEM snippet:
 
+```python
+parallax = parallax.aberration_fit(
+    fit_BF_shifts=True,
+    fit_aberrations_max_radial_order=2,
+    fit_aberrations_max_angular_order=0,
+)
+```
 
 :::{figure} #app:py4dstem_parallax_fitting_bf
 :name: py4dstem_parallax_fitting_bf
