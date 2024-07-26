@@ -21,7 +21,7 @@ This is precisely the operation tcBF-STEM aims to "undo".
 :::{figure} #app:py4dstem_parallax_vbfs
 :name: py4dstem_parallax_vbfs
 :placeholder: ./static/py4dstem_parallax_vbfs.png
-Virtual BF images formed by summing axial pixels (right, magenta) of a specific radius and the entire BF disk to form an incoherent BF image (right, cyan), for a simulated dataset of an apoferritin protein using typical sampling parameters and an electron dose of $100 \; e/\AA^2$.
+**Virtual BF images** formed by summing axial pixels (right, magenta) of a specific radius and the entire BF disk to form an incoherent BF image (right, cyan), for a simulated dataset of an apoferritin protein using typical sampling parameters and an electron dose of $100 \; e/\AA^2$.
 :::
 
 ### Iterative Alignment Bins
@@ -34,29 +34,48 @@ To ensure this procedure is robust against low SNR virtual BF images we implemen
 
 :::{figure} #app:py4dstem_parallax_masks
 :name: py4dstem_parallax_masks
-Virtual BF masks used to compute the tcBF-STEM cross-correlation shifts at decreasing bin values.
+**Virtual BF masks** used to compute tcBF-STEM cross-correlation shifts at decreasing bin values.
 :::
 
 ### Iterative Cross-Correlation
 
-:::{caution} TO-DO:
-- Add text describing iterative cross-correlation
-:::
+Despite the fact that the virtual BF images shown in [](#py4dstem_parallax_vbfs) have no discernible features the human eye can align too, iterative cross-correlation works remarkably well for this dataset.
+Note that in practice one often adds fiducial markers, such as gold nanoparticles which produce strong amplitude contrast, to ensure cross-correlation succeeds for very low SNR datasets.
+[](#py4dstem_parallax_reconstruct) illustrates the iterative alignment visually using the following snippet:
+
+```python
+parallax = py4DSTEM.process.phase.Parallax(
+    datacube=dataset, # py4DSTEM.DataCube
+    energy = 300e3, # in eV
+    object_padding_px=(8,8), # in pixels
+).preprocess(
+    edge_blend=4, # in pixels
+    plot_average_bf=False,
+).reconstruct(
+    alignment_bin_values=[32,32,16,16,8,8],
+    progress_bar=False,
+    figsize=(10,4.5),
+    cmap='gray',
+)
+```
 
 :::{figure} #app:py4dstem_parallax_reconstruct
 :name: py4dstem_parallax_reconstruct
-py4DSTEM parallax iterative cross-correlation
+**Iterative cross-correlation alignment of virtual BF images in py4DSTEM.**
 :::
+
+Note how much crisper the aligned virtual BF image looks like as the iterative alignment proceeds, as-well as the monotonic decrease in the self-consistent error metric.
+
 
 ### Cross-Correlation Shifts
 
-:::{caution} TO-DO:
-- Add text describing cross-correlation shifts surface
-:::
+In addition to the aligned BF image, it is useful to inspect the cross-correlation vector field, i.e. the 2D cross-correlation vector as a function of BF disk pixel position, directly.
+As we will see in [](#aberration_fitting_page) these hold a wealth of information pertaining to the microscope geometry and imaging conditions.
+Try playing around with the slider in [](#py4dstem_parallax_shifts) to get a sense of the cross-correlation vector field.
 
 :::{figure} #app:py4dstem_parallax_shifts
 :name: py4dstem_parallax_shifts
 :placeholder: ./static/py4dstem_parallax_shifts.png
-py4DSTEM parallax iterative cross-correlation
+**Iterative cross-correlation vector field.**
 :::
 
