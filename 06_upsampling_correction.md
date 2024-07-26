@@ -6,7 +6,7 @@ label: upsampling_page
 
 ### Subpixel Upsampling
 
-As alluded to in previous sections, one of the strengths of tcBF-STEM is the fact that its resolution is not limited by the scan sampling, but rather controlled by the subpixel accuracy of the measured cross-correlation vector shifts, and ultimately limited by twice the convergence semi-angle [@varnavides2023iterative].
+As alluded to in previous sections, one of the strengths of tcBF-STEM is the fact that its resolution is not limited by the scan sampling, but rather controlled by the subpixel accuracy of the measured cross-correlation vector shifts, and ultimately limited by twice the convergence semi-angle {cite:p}`varnavides2023iterative,yu2024dose`.
 In order to extract this additional resolution, we need to upsample our aligned virtual BF images stack using the following `py4DSTEM` snippet:
 
 ```python

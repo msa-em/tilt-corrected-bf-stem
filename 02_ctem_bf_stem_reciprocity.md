@@ -18,7 +18,7 @@ An alternative imaging mode to CTEM is [scanning transmission electron microscop
 In STEM, we use a large aperture in the condenser plane, which forms an electron probe composed of a cone of illumination angles. 
 The objective lens focuses this probe onto the sample, and electromagnetic or electrostatic *scan coils* are used to raster the probe over the sample surface [@grigson1965improved]. 
 STEM has many flexible imaging and diffraction modes as well as the ability to collect spectroscopic signals such such as x-ray energy dispersive spectrometry (XEDS) [@watanabe2016practical] and electron energy loss spectroscopy (EELS) [@egerton2008electron], and is therefore widely used in materials science studies [@ophus2023quantitative]. 
-In BF STEM, we measure the diffracted electron beam in the far field, using a detector centered on the optical axis which covers either a subset of the illumination angles or the full illumincation cone [@lebeau2009quantitative].
+In BF STEM, we measure the diffracted electron beam in the far field, using a detector centered on the optical axis which covers either a subset of the illumination angles or the full illumination cone [@lebeau2009quantitative].
 
 :::{figure} #app:ctem_bf_stem_reciprocity
 :name: ctem_bf_stem_reciprocity

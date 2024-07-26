@@ -40,14 +40,14 @@ Equations [](#aberration_surface_gradient_eq) and [](#chi_expansion_eq) form a l
 
 Specifically, we perform the following steps: [@varnavides2023iterative]
 
-1. estimate a 2x2 affine transformation, $H\equiv\hat{H}(\vec{k},\vec{k}')$, which maps the initial BF pixel positions, $V\equiv\vec{v}(\vec{k}')$, to the measured vector shifts, $W\equiv\vec{w}(\vec{k})$:
+1. Estimate a 2x2 affine transformation, $H\equiv\hat{H}(\vec{k},\vec{k}')$, which maps the initial BF pixel positions, $V\equiv\vec{v}(\vec{k}')$, to the measured vector shifts, $W\equiv\vec{w}(\vec{k})$:
 
 ```{math}
 :label: affine_transformation_eq
 H = \left( V^T V\right)^{-1} V^T W.
 ```
 
-2. decompose the affine transform into radial, $P$, and rotational, $U$, components &ndash; from which the passive rotation $\theta$ can be estimated:
+2. Decompose the affine transform into radial, $P$, and rotational, $U$, components &ndash; from which the passive rotation $\theta$ can be estimated:
 
 ```{math}
 :label: polar_decomposition_eq
@@ -60,13 +60,13 @@ H = \left( V^T V\right)^{-1} V^T W.
 \end{aligned}
 ```
 
-3. passively-rotate the Fourier coordinate system:
+3. Passively-rotate the Fourier coordinate system:
 ```{math}
 :label: rotated_coordinate_system_eq
 \vec{k}'\equiv \left(k_x,k_y\right) \to \left(k_x \cos(\theta) + k_y \sin(\theta), k_y \cos(\theta) - k_x \sin(\theta)\right).
 ```
 
-4. evaluate the linear system given by Equations [](#aberration_surface_gradient_eq) and [](#chi_expansion_eq) on $\vec{k}'$ to estimate aberration coefficients $C_{m,n}^{x/y}$ up to speficied radial and angular orders {cite:p}`cowley1979coherent,lupini2010aberration,lupini2016rapid`
+4. Evaluate the linear system given by Equations [](#aberration_surface_gradient_eq) and [](#chi_expansion_eq) on $\vec{k}'$ to estimate aberration coefficients $C_{m,n}^{x/y}$ up to speficied radial and angular orders {cite:p}`cowley1979coherent,lupini2010aberration,lupini2016rapid`
 
 [](#py4dstem_parallax_fitting_bf) performs the least-squares fit for various radial and angular orders, and plots a comparison between the measured and predicted vector shifts using the following `py4DSTEM` snippet:
 

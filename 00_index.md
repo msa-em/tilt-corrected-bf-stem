@@ -5,7 +5,7 @@ title: Tilt-Corrected Bright-Field STEM
 +++ {"part": "abstract"}
 
 Phase contrast imaging (PCI) is a highly dose-efficient (scanning) tranmission electron microscopy (S/TEM) imaging modality which enables the observation of weakly-scattering objects such as beam-sensitive materials and biological samples.
-Tilt-corrected bright-field STEM (tcBF-STEM) [@yu2024dose], also referred to as parallax imaging [@varnavides2023iterative], is a recently developed PCI STEM technique which utilizes the principle of reciprocity between tilted TEM and off-axis BF-STEM images to reconstruct the phase imparted by the sample, and enable robust aberration coefficient estimates.
+Tilt-corrected bright-field STEM (tcBF-STEM), also referred to as parallax imaging, is a recently developed PCI STEM technique which utilizes the principle of reciprocity between tilted TEM images and off-axis BF-STEM virtual images to reconstruct the phase imparted by the sample, and enable robust aberration coefficient estimates.
 Here, we first introduce the principles which underpin the technique, before demonstrating its application on a simulated dataset of a protein sample using our open-source implementation.
 
 +++

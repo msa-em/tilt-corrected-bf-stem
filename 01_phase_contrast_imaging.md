@@ -21,7 +21,7 @@ This produces measurable intensity variations even for very low electron fluence
 ```
 
 Conventional TEM experiments cannot directly measure phase.
-Our detectors measure only the intensity (amplitude squared) $I(\vec{r})$  of the electron [wavefunction](wiki:Wave_function) $\Psi(\vec{r})$, given as
+Our detectors measure only the intensity (squared amplitude) $I(\vec{r})$  of the electron [wavefunction](wiki:Wave_function) $\Psi(\vec{r})$
 ```{math}
 :label: eq:intensity_detector
 
@@ -69,7 +69,7 @@ I(\vec{r}) =
 
 ### Imaging with a Phase Plate
 
-An alternative PCI method for plane wave TEM is to use a post-specimen phase plate which advances the phase of each the unscattered zero beam with respect to the scattered electrons, or vice versa.
+An alternative PCI method for plane wave TEM is to use a post-specimen phase plate which advances the phase of the unscattered zero beam with respect to the scattered electrons, or vice versa.
 These phase plates have various designs, including a Zernike phase plate {cite:p}`zernike1942phase`, Boersch phase plate {cite:p}`boersch1947kontraste`, Volta phase plate {cite:p}`danev2014volta`, or the recently developed laser phase plates {cite:p}`schwartz2017near`.
 An ideal phase plate can be modeled in diffraction space using the expression
 ```{math}
