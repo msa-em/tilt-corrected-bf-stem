@@ -4,12 +4,12 @@ project:
   id: msa-em-tilt-corrected-bf-stem-1
   title: Tilt-Corrected BF-STEM
   description: Computational article on the tilt-corrected bright-field STEM technique -- a dose efficient phase contrast imaging modality which utilizes the principle of reciprocity.
-  #  jupyter: true
-  jupyter:
-    binder:
-      url: https://y2j74k9mn0bz.curvenote.dev/services/binder/
-      repo: msa-em/tilt-corrected-bf-stem
-      ref: dev
+  jupyter: true
+  #  jupyter:
+  #    binder:
+  #      url: https://y2j74k9mn0bz.curvenote.dev/services/binder/
+  #      repo: msa-em/tilt-corrected-bf-stem
+  #      ref: main
   #  jupyter:
   #    server:
   #      url: 'http://localhost:8888'
@@ -79,7 +79,7 @@ project:
   license: CC-BY-4.0
   github: https://github.com/msa-em/tilt-corrected-bf-stem
   doi: 10.69761/XUNR2166
-  # date: 2024-07-24
+  date: 2024-07-25
   history:
     submitted: 2024-07-25
   #   published: 2024-07-27
@@ -104,5 +104,7 @@ project:
     STEM: scanning transmission electron microscopy
     tcBF-STEM: tilt-corrected bright-field STEM
     XEDS: x-ray energy dispersive spectrometry 
+    KDE: kernel density estimation
+    CTF: contrast transfer function
 site:
   template: book-theme
