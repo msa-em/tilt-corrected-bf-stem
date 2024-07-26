@@ -1,6 +1,7 @@
 ---
 title: Upsampling of Aligned Bright Field
 short_title: Upsampling of Aligned BF
+label: upsampling_page
 ---
 
 ### Subpixel Upsampling
