@@ -4,11 +4,15 @@ short_title: CTEM / BF-STEM Reciprocity
 label: reciprocity_page
 ---
 
+### Conventional TEM
+
 Conventional transmission electron microscopy (CTEM) refers to a TEM imaging mode where we form a plane-wave of electrons focused on (or close to) an electron-transparent sample [@de2003introduction].
 In bright field (BF) CTEM imaging we use a post-specimen aperture which only allows unscattered electrons to hit the detector. 
 Alternatively we can produce a dark field (DF) image by using an aperture to select a subset of the scattered electrons. 
 As discussed in [](#phase_contrast_imaging_page), we can use a phase plate or defocus to produce contrast without an aperture.
 CTEM is widely used for imaging biological specimens [@cheng2015single], weakly-scattering materials science or geological samples [@lee2010transmission], and for *in situ* experiments where we typically want high temporal resolution while observing a large field of view [@ross2007situ].
+
+### Scanning TEM
 
 An alternative imaging mode to CTEM is [scanning transmission electron microscopy](wiki:Scanning_transmission_electron_microscopy) (STEM) [@pennycook2011scanning].
 In STEM, we use a large aperture in the condenser plane, which forms an electron probe composed of a cone of illumination angles. 
@@ -23,7 +27,10 @@ Principle of reciprocity in off-axis BF-STEM and tilted CTEM.
 The deflected ray traces in CTEM from source-to-detector match the ray traces in STEM from detector-to-source, and highlight the apparent image shifts at the sample plane.
 :::
 
-CTEM and BF STEM can be related using the principle of [reciprocity](wiki:Helmholtz_reciprocity). 
+### Principle of Reciprocity
+
+
+CTEM and BF STEM can be related using the concept of [reciprocity](wiki:Helmholtz_reciprocity). 
 The principle of reciprocity in electron microscopy states that rays connecting a source to a detector follow the same optical path as the rays from the detector to the source [@krause2017reciprocity]. 
 [](#ctem_bf_stem_reciprocity) shows how this principle applies to CTEM and BF STEM, if we swap the source and detector positions for the STEM diagram. 
 

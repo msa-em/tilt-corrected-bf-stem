@@ -7,7 +7,7 @@ label: upsampling_page
 ### Subpixel Upsampling
 
 As alluded to in previous sections, one of the strengths of tcBF-STEM is the fact that its resolution is not limited by the scan sampling, but rather controlled by the subpixel accuracy of the measured cross-correlation vector shifts, and ultimately limited by twice the convergence semi-angle [@varnavides2023iterative].
-In order to extract this additional resolution, we need to upsample our aligned virtual BF images stack using the following py4DSTEM snippet:
+In order to extract this additional resolution, we need to upsample our aligned virtual BF images stack using the following `py4DSTEM` snippet:
 
 ```python
 parallax = parallax.subpixel_alignment(
@@ -32,7 +32,7 @@ Play around with the slider above to get a sense of how much additional resoluti
 Notice how the aligned and upsampled virtual BF images we have investigated so far all have BF CTEM-like contrast.
 To account for this, and obtain contrast similar to that of the projected potential, we can use the estimated aberration coefficients to perform contrast transfer function (CTF) correction.
 
-This correction can take many forms, but in py4DSTEM we choose to simply flip the sign of the even aberration coefficients and correct the asymmetry introduced by odd aberration coefficients using the following Fourier-space filter {cite:p}`lupini2016rapid,varnavides2023iterative`
+This correction can take many forms, but in `py4DSTEM` we choose to simply flip the sign of the even aberration coefficients and correct the asymmetry introduced by odd aberration coefficients using the following Fourier-space filter {cite:p}`lupini2016rapid,varnavides2023iterative`
 
 ```{math}
 :label: aberration_correction_eq
@@ -44,7 +44,7 @@ This correction can take many forms, but in py4DSTEM we choose to simply flip th
 **Aberration correction of the KDE upsampled image.**
 :::
 
-[](#py4dstem_parallax_correction) plots the aberration-corrected image following upsampling, which can be achieved using the following py4DSTEM snipppet:
+[](#py4dstem_parallax_correction) plots the aberration-corrected image following upsampling, which can be achieved using the following `py4DSTEM` snipppet:
 
 ```python
 parallax = parallax.aberration_correct(

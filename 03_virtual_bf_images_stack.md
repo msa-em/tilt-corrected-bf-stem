@@ -18,10 +18,6 @@ This image is analogous to a conventional TEM image at the same conditions.
 More generally in STEM imaging, as the collection angle is decreased, diffraction contrast increases, and the resulting image looks more like a TEM bright field image [@carter2016transmission]. 
 Using the defocus slider in [](#virtual_bf_images_stack), you can see in the image on the right the contrast changes and Fresnel ringing that arises in conventional TEM imaging as a function of aberrations. 
 
-As we saw, the STEM probe covers many pixels in diffraction space, each of which is analogous to an incoming plane wave for TEM imaging but at a different tilt. 
-When defocused, the tilted illumination produces image shifts, which can be seen by changing the $k_x$ and $k_y$ sliders in [](#virtual_bf_images_stack). 
-The magnitude of the shifts changes with increasing defocus, which is based on the geometry of a defocused probe, as illustrated on the left.
-The impact of various aberrations on the shifts is explored in more detail in [](#aberration_fitting_page).
 
 :::{figure} #app:virtual_bf_images_stack
 :name: virtual_bf_images_stack
@@ -30,5 +26,11 @@ The impact of various aberrations on the shifts is explored in more detail in []
 The virtual images (right) are formed from the position highlighted by the red dot (middle). 
 The size of the shift and fringes in the image become larger with increasing magnitude of defocus.
 :::
+
+
+As we saw, the STEM probe covers many pixels in diffraction space, each of which is analogous to an incoming plane wave for TEM imaging but at a different tilt. 
+When defocused, the tilted illumination produces image shifts, which can be seen by changing the $k_x$ and $k_y$ sliders in [](#virtual_bf_images_stack). 
+The magnitude of the shifts changes with increasing defocus, which is based on the geometry of a defocused probe, as illustrated on the left.
+The impact of various aberrations on the shifts is explored in more detail in [](#aberration_fitting_page).
 
 
